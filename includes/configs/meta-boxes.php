@@ -70,7 +70,7 @@ return [
 				'caption'   => hivepress()->translator->get_string( 'select_images' ),
 				'type'      => 'attachment_upload',
 				'multiple'  => true,
-				'max_files' => 10,
+				'max_files' => 500,
 				'formats'   => [ 'jpg', 'jpeg', 'png' ],
 				'_order'    => 10,
 			],

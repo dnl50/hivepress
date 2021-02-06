@@ -129,10 +129,22 @@ class Listing_View_Page extends Page_Sidebar_Right {
 								'_order' => 50,
 							],
 
+                            'listing_attributes_tertiary' => [
+                                'type'   => 'part',
+                                'path'   => 'listing/view/page/listing-attributes-tertiary',
+                                '_order' => 60,
+                            ],
+
+                            'listing_attributes_quaternary' => [
+                                'type'   => 'part',
+                                'path'   => 'listing/view/page/listing-attributes-quaternary',
+                                '_order' => 70,
+                            ],
+
 							'listing_description'          => [
 								'type'   => 'part',
 								'path'   => 'listing/view/page/listing-description',
-								'_order' => 60,
+								'_order' => 80,
 							],
 						],
 					],

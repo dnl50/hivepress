@@ -148,7 +148,7 @@ class Listing extends Post {
 						'caption'   => hivepress()->translator->get_string( 'select_images' ),
 						'type'      => 'attachment_upload',
 						'multiple'  => true,
-						'max_files' => 10,
+						'max_files' => 500,
 						'formats'   => [ 'jpg', 'jpeg', 'png' ],
 						'_model'    => 'attachment',
 						'_relation' => 'one_to_many',
