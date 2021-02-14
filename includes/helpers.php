@@ -8,6 +8,8 @@
 namespace HivePress\Helpers;
 
 // Exit if accessed directly.
+use HivePress\Models\Listing;
+
 defined( 'ABSPATH' ) || exit;
 
 /**
@@ -506,4 +508,25 @@ function get_column_width( $number ) {
 	}
 
 	return $width;
+}
+
+
+/**
+ * @param Listing $listing The Listing to check.
+ * @param string $fieldName The name of the field.
+ * @return boolean true, iff the field of the listing exists and contains an entry
+ */
+function is_field_specified( $listing, $fieldName ) {
+    $fieldEntries = $listing->_get_fields($fieldName);
+
+
+    if(!empty($fieldEntries)) {
+        foreach ($fieldEntries as $field) {
+            if(!is_null($field->get_value())) {
+                return true;
+            }
+        }
+    }
+
+    return false;
 }

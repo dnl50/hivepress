@@ -12,14 +12,69 @@
     margin-bottom: 1rem;
 }
 
+/******************/
+/* Secondary Area */
+/******************/
+
 /* blue border around secondary page attributes */
 .hp-listing--view-page .hp-listing__attributes--secondary {
     border: 2px solid #4d9cd0;
 }
 
+/*****************/
+/* Tertiary Area */
+/*****************/
+
 /* add a little bottom margin to attributes */
 .hp-listing--view-page .hp-listing__attributes--tertiary .hp-row div:not(:last-child) {
     margin-bottom: 1rem;
+}
+
+/**************/
+/* Table Area */
+/**************/
+
+/* add a little bottom margin to below tables */
+.hp-listing--view-page .hp-listing__attributes--table .hp-row div:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+/* there is a space in front of tables which cannot be removed for some reason */
+.hp-listing__attribute .table-wrapper table:first-of-type {
+    margin-top: -1.5rem;
+}
+
+.hp-listing__attribute .table-wrapper {
+    overflow: auto;
+}
+
+.hp-listing__attribute .table-wrapper table {
+    width: 100%
+}
+
+.hp-listing__attribute .table-wrapper tr:nth-child(even){
+    background-color: rgba(100, 100, 100, 0.05);
+}
+
+/* decrease left margin of unordered/ordered lists */
+.hp-listing__attribute .table-wrapper table > tbody > tr > td > ul {
+    margin-left: 1rem;
+}
+
+.hp-listing__attribute .table-wrapper table > tbody > tr > td > ol {
+    margin-left: 1rem;
+}
+
+/* first column left aligned text */
+.hp-listing__attribute .table-wrapper table > tbody > tr > td:first-child {
+    text-align: left;
+    padding-left: 0.6rem;
+}
+
+/* last column right aligned text */
+.hp-listing__attribute .table-wrapper table > tbody > tr > td:last-child {
+    text-align: right;
+    padding-right: 0.6rem;
 }
 
 /***************************/

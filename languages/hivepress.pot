@@ -207,6 +207,11 @@ msgctxt "area"
 msgid "quaternary"
 msgstr ""
 
+#: includes/components/class-attribute.php:1177
+msgctxt "area"
+msgid "table"
+msgstr ""
+
 #: includes/components/class-attribute.php:1164
 msgid "Areas"
 msgstr ""
@@ -239,7 +244,7 @@ msgctxt "attribute"
 msgid "Indexable"
 msgstr ""
 
-#: includes/components/class-attribute.php:1234
+#: includes/components/class-attribute.php:1235
 msgctxt "attribute"
 msgid "Moderated"
 msgstr ""
@@ -582,7 +587,7 @@ msgstr ""
 msgid "Forgot password?"
 msgstr ""
 
-#: includes/components/class-attribute.php:1189
+#: includes/components/class-attribute.php:1190
 msgid "Format"
 msgstr ""
 
@@ -666,7 +671,7 @@ msgid ""
 "I agree to the <a href=\"%s\" target=\"_blank\">terms and conditions</a>"
 msgstr ""
 
-#: includes/components/class-attribute.php:1181
+#: includes/components/class-attribute.php:1182
 msgid "Icon"
 msgstr ""
 
@@ -846,7 +851,7 @@ msgstr ""
 msgid "Make this listing featured"
 msgstr ""
 
-#: includes/components/class-attribute.php:1235
+#: includes/components/class-attribute.php:1236
 msgid "Manually approve changes"
 msgstr ""
 
@@ -1006,6 +1011,7 @@ msgstr ""
 #: includes/components/class-attribute.php:1174
 #: includes/components/class-attribute.php:1175
 #: includes/components/class-attribute.php:1176
+#: includes/components/class-attribute.php:1177
 msgid "Page"
 msgstr ""
 
@@ -1278,7 +1284,7 @@ msgstr ""
 msgid "Set a date on which the listing will lose featured status."
 msgstr ""
 
-#: includes/components/class-attribute.php:1190
+#: includes/components/class-attribute.php:1191
 msgid "Set the attribute display format."
 msgstr ""
 
@@ -1375,7 +1381,7 @@ msgctxt "sort order"
 msgid "Title"
 msgstr ""
 
-#: includes/components/class-attribute.php:1206
+#: includes/components/class-attribute.php:1207
 #: includes/configs/meta-boxes.php:93
 msgctxt "sort priority"
 msgid "Order"
