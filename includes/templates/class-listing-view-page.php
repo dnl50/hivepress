@@ -147,10 +147,16 @@ class Listing_View_Page extends Page_Sidebar_Right {
                                 '_order' => 65,
                             ],
 
+                            'listing_attributes_quinary' => [
+                                'type'   => 'part',
+                                'path'   => 'listing/view/page/listing-attributes-quinary',
+                                '_order' => 70,
+                            ],
+
 							'listing_description'          => [
 								'type'   => 'part',
 								'path'   => 'listing/view/page/listing-description',
-								'_order' => 70,
+								'_order' => 57,
 							],
 						],
 					],
